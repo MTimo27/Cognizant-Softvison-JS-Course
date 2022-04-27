@@ -1,0 +1,26 @@
+{
+  "name": "cognizant-softvison-js-course",
+  "version": "1.0.0",
+  "description": "Mihai Timoficiuc - Teme",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTimo27/Cognizant-Softvison-JS-Course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MTimo27/Cognizant-Softvison-JS-Course/issues"
+  },
+  "homepage": "https://github.com/MTimo27/Cognizant-Softvison-JS-Course#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
