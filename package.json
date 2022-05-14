@@ -1,26 +1,21 @@
 {
-  "name": "cognizant-softvison-js-course",
-  "version": "1.0.0",
-  "description": "Mihai Timoficiuc - Teme",
-  "main": "index.js",
+  "name": "tema3",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MTimo27/Cognizant-Softvison-JS-Course.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MTimo27/Cognizant-Softvison-JS-Course/issues"
-  },
-  "homepage": "https://github.com/MTimo27/Cognizant-Softvison-JS-Course#readme",
   "dependencies": {
-    "express": "^4.18.0"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "sass": "^1.51.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "vite": "^2.9.9"
   }
 }
