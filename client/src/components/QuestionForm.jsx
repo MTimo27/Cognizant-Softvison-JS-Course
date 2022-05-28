@@ -1,10 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function QuestionForm({
-  answer,
-  setAnswer,
-  handleSubmitAnswer,
-}) {
+function QuestionForm({ handleSubmitAnswer }) {
+  const [answer, setAnswer] = useState('');
   return (
     <div>
       <h1>Are you a developer?</h1>
@@ -14,7 +11,9 @@ function QuestionForm({
         value={answer}
         onChange={(e) => setAnswer(e.target.value)}
       />
-      <button onClick={handleSubmitAnswer}>Submit</button>
+      <button onClick={() => handleSubmitAnswer(answer)}>
+        Submit
+      </button>
     </div>
   );
 }
