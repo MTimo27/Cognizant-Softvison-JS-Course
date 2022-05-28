@@ -18,8 +18,8 @@ io.on('connection', (socket) => {
   console.log(`User Connected: ${socket.id}`);
   socket.join('default');
 
-  socket.on('send_message', (data) => {
-    socket.to('default').emit('receive_message', data);
+  socket.on('send_answer', (data) => {
+    socket.to('default').emit('receive_answer', data);
   });
 });
 
